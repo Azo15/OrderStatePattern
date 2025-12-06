@@ -3,7 +3,7 @@ public class Main {
 
         Order order = new Order(new PendingState());
 
-        order.ship();      // Pending -> Shipped
+        order.ship();      // Pending -> Shipped 
         order.deliver();   // Shipped -> Delivered
         order.cancel();    // Delivered -> Cannot cancel
     }
