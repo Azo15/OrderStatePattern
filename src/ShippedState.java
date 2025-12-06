@@ -1,4 +1,4 @@
-public class ShippedState implements OrderState {
+ public class ShippedState implements OrderState {
 
     @Override
     public void ship(Order context) {
